@@ -1,12 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <title>芝浦祭特設ﾍﾟｰｼﾞ</title>
 </head>
+
 <body>
-    テストﾍﾟｰｼﾞ
-    なにかを書く
+    <nav class="navbar navbar-dark mb-2 digicre-color">
+        <a href="./index.html" class="navbar-brand">
+            <img src="./img/logo.png" alt="デジクリロゴ" height="30">
+            2020年度 芝浦祭特設ページ
+        </a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="example-2" class="carousel slide img-responsive center-block" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/VR空間720.png" alt="First slide" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <a class="" data-toggle="modal" data-target="#testModal">
+                                <img src="./img/sddefault.jpg" alt="Second slide" class="d-block w-100">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="./img/使い方720.png" alt="Third slide" class="d-block w-100">
+                            </a>
+                        </div>
+                        <a class="carousel-control-prev" href="#example-2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#example-2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5">
+            <div>
+                <h2><u><strong>タイムテーブル</strong></u></h2>
+                <p>
+                    デジクリは11/3の10:00～22:00の間、展示と解説員を配置しています。<br>
+                    Clusterの準備が出来ている方は表のリンクより会場に入ることが出来ます。<br>
+                    <small>※会場へのリンクは当日の朝、掲載されます。</small>
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <table class="table table-striped">
+                <tr>
+                    <th>時間</th>
+                    <th>ClusterURL</th>
+                </tr>
+                <tr>
+                    <td>11/3 10~14:00</td>
+                    <td>準備中</td>
+                </tr>
+                <tr>
+                    <td>11/3 14~18:00</td>
+                    <td>準備中</td>
+                </tr>
+                <tr>
+                    <td>11/3 18~22:00</td>
+                    <td>準備中</td>
+                </tr>
+            </table>
+        </div>
+        <div class="row mt-5">
+            <div>
+                <h2><u><strong>Clusterとは？</strong></u></h2>
+                <p>
+                    cluster（クラスター）はスマホやPC、VR機器など様々な環境からバーチャル空間に集まって遊べる、マルチプラットフォーム対応のバーチャルSNSです。<br>
+                    <small>※clusterホームページより引用</small><br>
+                    <a href="cluster.mu">cluster公式サイト</a><br>
+                    デジクリでは今回のような文化祭以外にも、報告や講座、LTを行う定例会を毎週Cluster上で行っています。<br>
+                    <a href="./cluster.html"><strong>Clusterの導入方法はこちらへ</strong></a>
+                </p>
+                <img src="./img/cluster-top.png" alt="" class="d-block w-100">
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+            <div>
+                <h2><u><strong>各種リンク</strong></u></h2>
+
+            </div>
+        </div>
+        <div class="row card-deck">
+            
+            <div href="https://digicre.net" class="card" style="width:18rem;">
+                <img class="card-img-top" src="./img/digicre-hp.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">デジクリHP</h5>
+                    <p class="card-text">内容は古いので参考程度に...(リニューアル検討中)　新入生向けサイトがおすすめです。</p>
+                    <br>
+                    <a href="https://digicre.net" class="btn btn-primary">WebPage</a>
+                </div>
+            </div>
+
+            <div class="card" style="width:18rem;">
+                <img class="card-img-top" src="./img/digicre-welcome.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">新入生向けサイト</h5>
+                    <p class="card-text">デジクリの活動内容や仮入部の方法などが載っています。</p>
+                    <br>
+                    <a href="https://digicre.net/welcome/" class="btn btn-primary">WebPage</a>
+                </div>
+            </div>
+            <div class="card" style="width:18rem;">
+                <img class="card-img-top" src="./img/digicre-youtube.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">デジクリチャンネル</h5>
+                    <p class="card-text">デジクリの作品の宣伝、VTuberによるサークルの紹介動画などが載っています。</p>
+                    <br>
+                    <a href="https://www.youtube.com/channel/UCKz8KYao5CXcHlBgq7QfbUg" class="btn btn-danger">Youtube</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EaFvRsJAV9U"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
